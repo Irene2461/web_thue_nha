@@ -8,7 +8,7 @@ export default function Layout() {
   return (
     
     <div className="py-4 px-8 flex flex-col min-h-screen max-w-6xl mx-auto">
-     <Header />
+      <Header />
       <Outlet />
     </div>
   );
